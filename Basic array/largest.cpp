@@ -31,7 +31,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
     int maxValue = arr[0]; // starting with first element
 
     for (int i = 1; i < n; i++) {

@@ -5,7 +5,7 @@ int binSearch(int arr[], int n, int key)
     int st = 0, end = n - 1;
     while (st <= end)
     {
-        int mid = (st + mid) / 2;
+        int mid = (st +end) / 2;
         if (arr[mid] == key)
         {
             return mid; // key found
@@ -29,3 +29,4 @@ int main()
     cout<<binSearch(arr,n,12)<<endl;
     return 0;
 }
+
